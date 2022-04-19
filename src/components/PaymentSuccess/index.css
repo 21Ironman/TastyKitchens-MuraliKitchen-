@@ -1,0 +1,49 @@
+.paymentSuccess {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.check-sign {
+  height: 64px;
+  width: 64px;
+  color: #22c55e;
+}
+
+.success-heading {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #1e293b;
+}
+
+.success-description {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #64748b;
+}
+
+.go-to-button {
+  width: 131px;
+  height: 32px;
+  border-radius: 8px;
+  padding: 8px, 16px, 8px, 16px;
+  background-color: #f7931e;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: none;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Dm Sam';
+  color: #ffffff;
+  border: none;
+}

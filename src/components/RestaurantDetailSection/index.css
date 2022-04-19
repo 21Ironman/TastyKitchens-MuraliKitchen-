@@ -1,0 +1,204 @@
+.restaurant-detail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wallpaper-container {
+  background-image: URL('https://res.cloudinary.com/dh2scpkcz/image/upload/v1635504141/tastykitcken/Frame_279_oxbrs5.png');
+  background-size: cover;
+  position: static;
+  width: 100%;
+  padding: 25px;
+}
+@media screen and (min-width: 768px) {
+  .wallpaper-container {
+    padding: 50px;
+  }
+}
+
+.restaurant-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-loader-container {
+    width: 100%;
+  }
+}
+
+.restaurant-img {
+  position: relative;
+  width: 221px;
+  height: 221px;
+  left: -68px;
+  top: -54px;
+  border-radius: 133.981px;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-img {
+    position: static;
+    width: 445px;
+    height: 280px;
+    left: 165px;
+    top: 176px;
+    border-radius: 8px;
+  }
+}
+.content-wallpaper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.restaurant-detail-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.name-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .name-heading {
+    font-size: 36px;
+  }
+}
+
+.content-description {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  padding-top: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .content-description {
+    font-size: 16px;
+  }
+}
+
+.rating-and-coast-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.hr {
+  width: 33px;
+  height: 0px;
+  border: 1px solid #e2e8f0;
+  transform: rotate(90deg);
+}
+
+@media screen and (min-width: 768px) {
+  .hr {
+    width: 80px;
+  }
+}
+
+.food-items-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.retry-button {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 10px;
+  padding: 8px 16px;
+  color: #ffffff;
+  background-color: #eb7a34;
+  border: none;
+  border-radius: 4px;
+  margin-left: 14px;
+  cursor: pointer;
+  outline: none;
+}
+.restaurant-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  padding-bottom: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-error-view-container {
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 70%;
+    padding-bottom: 0;
+  }
+}
+
+.restaurant-failure-img {
+  width: 250px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-failure-img {
+    width: 400px;
+    height: 350px;
+  }
+}
+
+.restaurant-failure-heading-text {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-failure-heading-text {
+    font-size: 24px;
+  }
+}
+
+.restaurant-failure-description {
+  text-align: center;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 14px;
+  width: 90%;
+  max-width: 288px;
+  line-height: 1.3;
+}
+
+@media screen and (min-width: 768px) {
+  .restaurant-failure-description {
+    font-size: 18px;
+    width: 60%;
+    max-width: 466px;
+  }
+}
